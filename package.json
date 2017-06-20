@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-nhnent",
+  "version": "1.0.0",
+  "description": "NHNEnt. ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.nhnent.com/youjung-hong/eslint-config-nhnent.git"
+  },
+  "keywords": [
+    "eslint",
+    "nhnent"
+  ],
+  "author": "NHNEnt FE Development Lab <dl_javascript@nhnent.com>",
+  "license": "MIT"
+}
