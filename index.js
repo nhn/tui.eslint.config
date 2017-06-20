@@ -1,7 +1,19 @@
 'use strict';
 
 module.exports = {
-    rules: {
+    "env": {
+        "browser": true,
+        "amd": true,
+        "node": true,
+        "jasmine": true,
+        "jquery": true,
+    },
+    "globals": {
+        "tui": true,
+        "loadFixtures": true,
+        "ActiveXObject": true
+    },
+    "rules": {
         //Possible Errors
         "no-cond-assign": [2, "always"],
         "no-console": 1,
