@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-nhnent",
+  "name": "eslint-config-tui",
   "version": "1.0.0",
-  "description": "NHNEnt. ESLint Config",
+  "description": "ESLint sharable config for TUI components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.nhnent.com/youjung-hong/eslint-config-nhnent.git"
+    "url": "https://github.com/nhnent/tui.eslint.config.git"
   },
   "keywords": [
     "eslint",
+    "eslint-config",
     "eslintconfig",
-    "nhnent"
+    "nhnent",
+    "tui"
   ],
   "author": "NHNEnt FE Development Lab <dl_javascript@nhnent.com>",
   "license": "MIT"
