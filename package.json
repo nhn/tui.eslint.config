@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.nhnent.com/youjung-hong/eslint-config-nhnent.git"
   },
   "keywords": [
     "eslint",
+    "eslintconfig"
     "nhnent"
   ],
   "author": "NHNEnt FE Development Lab <dl_javascript@nhnent.com>",
