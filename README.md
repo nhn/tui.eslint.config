@@ -1,6 +1,6 @@
 # eslint-config-tui
 
-> ESLint sharable config for TUI components
+#### ESLint sharable config for TUI components
 
 ## Install
 ```js
@@ -14,7 +14,7 @@ Add `.eslintrc` on your project's root directory
 {
     "extends": "tui",
     "rules": {
-        // Additional, per-project rules...
+        // Additional rules
     }
 }
 ```
