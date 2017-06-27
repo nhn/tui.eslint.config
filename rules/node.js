@@ -1,4 +1,8 @@
 module.exports = {
+    env: {
+        "node": true,
+        "commonjs": true
+    },
     rules: {
         // Node.js and CommonJS
         "global-require": 2,

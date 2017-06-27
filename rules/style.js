@@ -27,7 +27,7 @@ module.exports = {
         "lines-around-comment": 0,
         "lines-around-directive": 2,
         "max-depth": [2, 3],
-        "max-len": [2, {"code": 120, "tabWidth": 2, "ignoreStrings": true, "ignoreComments": true, "ignoreRegExpLiterals": true}],
+        "max-len": [2, {"code": 120, "tabWidth": 4, "ignoreStrings": true, "ignoreComments": true, "ignoreRegExpLiterals": true}],
         "max-nested-callbacks": [2, 3],
         "max-params": [2, 5],
         "max-statements": 0,
@@ -74,10 +74,10 @@ module.exports = {
         "space-infix-ops": 2,
         "space-unary-ops": [2, {"words": true, "nonwords": false}],
         "spaced-comment": [2, "always", {
-          "block": {
-            "markers": ["*"],
-            "exceptions": ["*"]
-          }
+            "block": {
+                "markers": ["*"],
+                "exceptions": ["*"]
+            }
         }],
         "wrap-regex": 0,
         "newline-before-return": 1,

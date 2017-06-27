@@ -30,11 +30,11 @@ module.exports = {
         "no-unreachable": 2,
         "use-isnan": 2,
         "valid-jsdoc": [2, {
-          "prefer": {
-            "return": "returns"
-          },
-          "requireReturnDescription": false,
-          "requireReturn": false
+            "prefer": {
+                "return": "returns"
+            },
+            "requireReturnDescription": false,
+            "requireReturn": false
         }],
         "valid-typeof": 2
     }

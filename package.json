@@ -16,9 +16,11 @@
   "keywords": [
     "eslint",
     "eslint-config",
-    "eslintconfig",
+    "eslint.config",
     "nhnent",
-    "tui"
+    "tui",
+    "tui.eslint.config",
+    "tui.eslint"
   ],
   "author": "NHNEnt FE Development Lab <dl_javascript@nhnent.com>",
   "license": "MIT"

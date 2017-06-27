@@ -12,6 +12,6 @@ module.exports = {
         "no-undefined": 2,
         "no-unused-vars": 2,
         "no-use-before-define": [2, "nofunc"],
-        "no-restricted-globals": [1, "event", "fdescribe", "fit"]
+        "no-restricted-globals": [1, "event", "fdescribe", "fit"],
     }
 }

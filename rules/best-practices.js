@@ -60,6 +60,6 @@ module.exports = {
         "radix": 2,
         "vars-on-top": 2,
         "wrap-iife": [2, "inside", {"functionPrototypeMethods": true}],
-        "yoda": 2
+        "yoda": 2,
     }
 }

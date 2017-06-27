@@ -3,18 +3,29 @@
 #### ESLint sharable config for TUI components
 
 ## Install
-```js
-npm install eslint-config-tui --save-dev
+```
+$ npm install eslint eslint-config-tui --save-dev
 ```
 
 ## Usage
-Add `.eslintrc` on your project's root directory
-```
-// .eslintrc
-{
+Add `.eslintrc.js` on your project's root directory.
+```javascript
+// .eslintrc.js
+module.exports = {
     "extends": "tui",
     "rules": {
-        // Additional rules
+        // Override rules or Add more rules
+    }
+}
+```
+
+By default, this configuration expects ES5 syntax. You can override that setting to enable support for ES6 Syntax and new ES6 global variables.
+```javascript
+// .eslintrc.js
+module.exports = {
+    "extends": "tui",
+    "env": {
+        "es6": true // enable ES6 Syntax automatically
     }
 }
 ```
@@ -22,5 +33,7 @@ Add `.eslintrc` on your project's root directory
 ## Learn more
 [JavaScript Style Guide](https://github.com/nhnent/fe.javascript/wiki)
 
+[Configuring ESLint](http://eslint.org/docs/user-guide/configuring)
+
 ## License
-This software is licensed under the MIT License.
+This software is licensed under the [MIT License](https://github.com/nhnent/tui.eslint.config/blob/master/LICENSE).
