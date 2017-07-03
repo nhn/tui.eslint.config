@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
         // Strict Mode
-        "strict": [2, "global"]
+        'strict': [2, 'global']
     }
-}
+};

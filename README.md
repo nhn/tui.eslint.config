@@ -12,22 +12,31 @@ Add `.eslintrc.js` on your project's root directory.
 ```javascript
 // .eslintrc.js
 module.exports = {
-    "extends": "tui",
-    "rules": {
+    'extends': 'tui',
+    'rules': {
         // Override rules or Add more rules
     }
-}
+};
 ```
-
-By default, this configuration expects ES5 syntax. You can override that setting to enable support for ES6 Syntax and new ES6 global variables.
+### Support ES6
+#### rules and syntax
+To Support ES6 rules, use `tui/es6` instead.
+```javascript
+// .eslintrc.js
+module.exports =
+    'extends': 'tui/es6' // default rule and ES6 rule
+};
+```
+#### syntax only
+By default, ESLint configuration expects ES5 syntax. You can override this setting to enable support for ES6 syntax and new ES6 global variables.
 ```javascript
 // .eslintrc.js
 module.exports = {
-    "extends": "tui",
-    "env": {
-        "es6": true // enable ES6 Syntax automatically
+    'extends': 'tui', // no ES6 rule
+    'env': {
+        'es6': true
     }
-}
+};
 ```
 
 ## Learn more
