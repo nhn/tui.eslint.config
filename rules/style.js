@@ -2,6 +2,8 @@ module.exports = {
     rules: {
         // Stylistic Issues
         'array-bracket-spacing': [2, 'never'],
+        'array-bracket-newline': [2, {'multiline': true}],
+        'array-element-newline': [2, {'multiline': true}],
         'block-spacing': [2, 'never'],
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
         'camelcase': 2,
@@ -54,18 +56,24 @@ module.exports = {
         'no-underscore-dangle': 0,
         'no-unneeded-ternary': 2,
         'nonblock-statement-body-position': 0,
-        'object-curly-newline': 0,
+        'object-curly-newline': [2, {'consistent': true}],
         'object-curly-spacing': [2, 'never'],
         'object-property-newline': [2, {'allowMultiplePropertiesPerLine': false}],
         'one-var': 0,
         'operator-assignment': 0,
         'operator-linebreak': 0,
         'padded-blocks': [2, 'never'],
+        'padding-line-between-statements': [2,
+            { blankLine: "always", prev: "*", next: "return" },
+            { blankLine: "always", prev: "directive", next: "*" }, { blankLine: "any", prev: "directive", next: "directive" },
+            { blankLine: "always", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]}
+        ]
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
         'require-jsdoc': 1,
-        'semi-spacing': [2, {'before': false, 'after': true}],
         'semi': 2,
+        'semi-spacing': [2, {'before': false, 'after': true}],
+        'semi-style': 2,
         'sort-keys': 0,
         'sort-vars': 0,
         'space-before-blocks': 2,
@@ -79,6 +87,7 @@ module.exports = {
                 'exceptions': ['*']
             }
         }],
+        'switch-colon-spacing': 2,
         'wrap-regex': 0,
         'newline-before-return': 1,
         'max-statements-per-line': [2, {'max': 1}],

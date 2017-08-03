@@ -1,6 +1,7 @@
 module.exports = {
     rules: {
         // Possible Errors
+        'for-direction': 2,
         'no-cond-assign': [2, 'always'],
         'no-console': 1,
         'no-constant-condition': 2,
