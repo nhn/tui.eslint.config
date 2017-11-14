@@ -65,7 +65,7 @@ module.exports = {
             { blankLine: "always", prev: "*", next: "return" },
             { blankLine: "always", prev: "directive", next: "*" }, { blankLine: "any", prev: "directive", next: "directive" },
             { blankLine: "always", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]}
-        ]
+        ],
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
         'require-jsdoc': 1,
