@@ -2,6 +2,7 @@ module.exports = {
     rules: {
         // Possible Errors
         'for-direction': 2,
+        'getter-return': [2, {'allowImplicit': false}],
         'no-cond-assign': [2, 'always'],
         'no-console': 1,
         'no-constant-condition': 2,

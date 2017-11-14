@@ -10,7 +10,6 @@ module.exports = {
         'dot-location': [2, 'property'],
         'dot-notation': [2, {'allowKeywords': false}],
         'eqeqeq': [2, 'always'],
-        'getter-return': 2,
         'guard-for-in': 2,
         'no-alert': 0,
         'no-caller': 2,

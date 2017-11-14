@@ -12,7 +12,7 @@ module.exports = {
         'no-path-concat': 2,
         'no-process-exit': 2,
         'no-restricted-modules': 0,
-        'no-sync': 0,
+        'no-sync': [2, {'allowAtRootLevel': false}],
         'no-buffer-constructor': 2
     }
 };
