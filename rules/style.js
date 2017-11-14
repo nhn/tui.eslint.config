@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         // Stylistic Issues
         'array-bracket-spacing': [2, 'never'],
-        'array-bracket-newline': [2, {'multiline': true}],
+        'array-bracket-newline': ['error', {'multiline': true}],
         'array-element-newline': [2, {'multiline': true}],
         'block-spacing': [2, 'never'],
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
@@ -64,7 +64,7 @@ module.exports = {
         'padding-line-between-statements': [2,
             { blankLine: "always", prev: "*", next: "return" },
             { blankLine: "always", prev: "directive", next: "*" }, { blankLine: "any", prev: "directive", next: "directive" },
-            { blankLine: "always", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]}
+            { blankLine: "any", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]}
         ],
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
