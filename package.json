@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-tui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint sharable config for TUI components",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4"
   },
   "repository": {
     "type": "git",

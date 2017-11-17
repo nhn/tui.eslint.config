@@ -10,7 +10,7 @@ module.exports = {
         'no-await-in-loop': 2,
         'no-class-assign': 2,
         'no-const-assign': 2,
-        'no-confusing-arrow': [2, {'allowParens': true}],
+        'no-confusing-arrow': 0,
         'no-dupe-class-members': 2,
         'no-duplicate-imports': 2,
         'no-new-symbol': 2,
