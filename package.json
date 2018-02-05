@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint sharable config for TUI components",
   "main": "index.js",
   "scripts": {
