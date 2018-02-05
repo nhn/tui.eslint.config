@@ -3,6 +3,7 @@ module.exports = {
         // Possible Errors
         'for-direction': 2,
         'getter-return': [2, {'allowImplicit': false}],
+        'array-callback-return': ['error', { 'allowImplicit': false }],
         'no-cond-assign': [2, 'always'],
         'no-console': 1,
         'no-constant-condition': 2,

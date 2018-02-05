@@ -23,7 +23,7 @@ module.exports = {
         'object-shorthand': [2, 'always', {'avoidQuotes': true}],
         'prefer-arrow-callback': [2, {'allowUnboundThis': false, 'allowNamedFunctions': true}],
         'prefer-const': [2, {'destructuring': 'any', 'ignoreReadBeforeAssign': true}],
-        'prefer-destructuring': [2, {'array': true, 'object': true}, {'enforceForRenamedProperties': false}],
+        'prefer-destructuring': [2, {'VariableDeclarator': {'array': true, 'object': true}, 'AssignmentExpression': {'array': true, 'object': true }}, {'enforceForRenamedProperties': false}],
         'prefer-numeric-literals': 2,
         'prefer-reflect': 0,
         'prefer-rest-params': 2,

@@ -15,7 +15,7 @@ module.exports = {
         'no-caller': 2,
         'no-case-declarations': 2,
         'no-div-regex': 2,
-        'no-else-return': 2,
+        'no-else-return': [2, {'allowElseIf': false}],
         'no-empty-pattern': 2,
         'no-eq-null': 2,
         'no-eval': 2,
