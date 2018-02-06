@@ -10,7 +10,7 @@ module.exports = {
         'capitalized-comments': 0,
         'comma-dangle': [2, 'never'],
         'comma-spacing': [2, {'before': false, 'after': true}],
-        'comma-style': [2, 'last', { "exceptions": { 'NewExpression': false}],
+        'comma-style': [2, 'last', { "exceptions": { 'NewExpression': false}}],
         'computed-property-spacing': [2, 'never'],
         'consistent-this': [2, 'self'],
         'eol-last': 2,
