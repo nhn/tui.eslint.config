@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         // Stylistic Issues
         'array-bracket-spacing': [2, 'never'],
-        'array-bracket-newline': 0,
+        'array-bracket-newline': [2, 'consistent'],
         'array-element-newline': 0,
         'block-spacing': [2, 'never'],
         'brace-style': [2, '1tbs', {'allowSingleLine': false}],
@@ -10,7 +10,7 @@ module.exports = {
         'capitalized-comments': 0,
         'comma-dangle': [2, 'never'],
         'comma-spacing': [2, {'before': false, 'after': true}],
-        'comma-style': [2, 'last'],
+        'comma-style': [2, 'last', { "exceptions": { 'NewExpression': false}],
         'computed-property-spacing': [2, 'never'],
         'consistent-this': [2, 'self'],
         'eol-last': 2,
@@ -20,7 +20,7 @@ module.exports = {
         'func-call-spacing': [2, 'never'],
         'id-length': 0,
         'id-match': 0,
-        'indent': [2, 4, {'SwitchCase': 1}],
+        'indent': [2, 4, {'SwitchCase': 1, 'ignoreComments': false, 'ImportDeclaration': 1, 'flatTernaryExpressions': false}],
         'jsx-quotes': [2, 'prefer-double'],
         'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
         'keyword-spacing': 2,
@@ -50,13 +50,13 @@ module.exports = {
         'no-spaced-func': 2,
         'no-tabs': 2,
         'no-ternary': 0,
-        'no-trailing-spaces': [2, {'skipBlankLines': false, 'ignoreComments': false}],
+        'no-trailing-spaces': [2, {'skipBlankLines': false, 'ignoreComments': true}],
         'no-underscore-dangle': 0,
         'no-unneeded-ternary': 2,
         'nonblock-statement-body-position': 0,
         'object-curly-newline': 0,
         'object-curly-spacing': [2, 'never'],
-        'object-property-newline': [2, {'allowMultiplePropertiesPerLine': false}],
+        'object-property-newline': [2, {'allowAllPropertiesOnSameLine': false}],
         'one-var': 0,
         'operator-assignment': 0,
         'operator-linebreak': 0,
@@ -89,6 +89,10 @@ module.exports = {
         'wrap-regex': 0,
         'newline-before-return': 1,
         'max-statements-per-line': [2, {'max': 1}],
-        'unicode-bom': [2, 'never']
+        'unicode-bom': [2, 'never'],
+        'implicit-arrow-linebreak': [2, 'beside'],
+        'function-paren-newline': 0,
+        'multiline-comment-style': 0,
+        'lines-between-class-members': [2, 'always']
     }
 };
