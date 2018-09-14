@@ -46,6 +46,7 @@ module.exports = {
         'no-return-assign': [2, 'always'],
         'no-script-url': 2,
         'no-self-compare': 2,
+        'no-self-assign': [2, {'props': true}],
         'no-sequences': 2,
         'no-throw-literal': 2,
         'no-unsafe-finally': 2,
