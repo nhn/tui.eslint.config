@@ -20,7 +20,7 @@ module.exports = {
         'func-call-spacing': [2, 'never'],
         'id-length': 0,
         'id-match': 0,
-        'indent': [2, 4, {'SwitchCase': 1, 'ignoreComments': false, 'ImportDeclaration': 1, 'flatTernaryExpressions': false}],
+        'indent': [2, 2, {'SwitchCase': 1, 'ignoreComments': false, 'ImportDeclaration': 1, 'flatTernaryExpressions': false}],
         'jsx-quotes': [2, 'prefer-double'],
         'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
         'keyword-spacing': 2,
@@ -65,7 +65,8 @@ module.exports = {
         'padding-line-between-statements': [2,
             { blankLine: "always", prev: "*", next: "return" },
             { blankLine: "always", prev: "directive", next: "*" }, { blankLine: "any", prev: "directive", next: "directive" },
-            { blankLine: "any", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]}
+            { blankLine: "any", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]},
+            { blankLine: "always", prev: "iife", next: "*" }, { blankLine: "always", prev: "*", next: "iife" }
         ],
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
