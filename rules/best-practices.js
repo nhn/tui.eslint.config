@@ -55,6 +55,7 @@ module.exports = {
         'no-useless-concat': 2,
         'no-useless-escape': 2,
         'no-useless-return': 2,
+        'no-useless-catch': 2,
         'no-void': 2,
         'no-warning-comments': 1,
         'no-with': 2,
