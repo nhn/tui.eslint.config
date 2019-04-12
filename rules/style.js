@@ -64,13 +64,14 @@ module.exports = {
         'padded-blocks': [2, 'never'],
         'padding-line-between-statements': [2,
             { blankLine: "always", prev: "*", next: "return" },
-            { blankLine: "always", prev: "directive", next: "*" }, { blankLine: "any", prev: "directive", next: "directive" },
-            { blankLine: "any", prev: ["const", "let", "var"], next: "*"}, { blankLine: "any", prev: ["const", "let", "var"], next: ["const", "let", "var"]},
-            { blankLine: "always", prev: "iife", next: "*" }, { blankLine: "always", prev: "*", next: "iife" }
+            { blankLine: "always", prev: "directive", next: "*" },
+            { blankLine: "any", prev: "directive", next: "directive" },
+            { blankLine: "any", prev: ["const", "let", "var"], next: "*"},
+            { blankLine: "always", prev: "iife", next: "*" },
+            { blankLine: "always", prev: "*", next: "iife" }
         ],
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
-        'require-jsdoc': 1,
         'require-unicode-regexp': 0,
         'semi': 2,
         'semi-spacing': [2, {'before': false, 'after': true}],

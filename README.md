@@ -40,9 +40,9 @@ module.exports = {
 ```
 
 ## Learn more
-[JavaScript Style Guide](https://github.com/nhnent/fe.javascript/wiki)
+[JavaScript Style Guide](https://github.com/nhn/fe.javascript/wiki)
 
 [Configuring ESLint](http://eslint.org/docs/user-guide/configuring)
 
 ## License
-This software is licensed under the [MIT License](https://github.com/nhnent/tui.eslint.config/blob/master/LICENSE).
+This software is licensed under the [MIT License](https://github.com/nhn/tui.eslint.config/blob/master/LICENSE).
