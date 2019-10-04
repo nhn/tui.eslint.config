@@ -1,12 +1,13 @@
 module.exports = {
     rules: {
         //Best Practices
-        'accessor-pairs': [2, {'getWithoutSet': true}],
+        'accessor-pairs': [2, {'setWithoutGet': true,'getWithoutSet': false, 'enforceForClassMembers': false}],
         'block-scoped-var': 2,
         'complexity': [1, 6],
         'consistent-return': 2,
         'curly': 2,
         'default-case': 2,
+        'default-param-last': 2,
         'dot-location': [2, 'property'],
         'dot-notation': [2, {'allowKeywords': false}],
         'eqeqeq': [2, 'always'],
@@ -63,5 +64,6 @@ module.exports = {
         'vars-on-top': 2,
         'wrap-iife': [2, 'inside', {'functionPrototypeMethods': true}],
         'yoda': 2,
+        'prefer-regex-literals': 2
     }
 };

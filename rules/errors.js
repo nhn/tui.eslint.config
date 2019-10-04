@@ -32,6 +32,7 @@ module.exports = {
         'no-template-curly-in-string': 2,
         'no-unexpected-multiline': 2,
         'no-unreachable': 2,
+        'no-import-assign': 2,
         'use-isnan': 2,
         'valid-typeof': 2
     }
