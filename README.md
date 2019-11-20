@@ -23,7 +23,7 @@ module.exports = {
 To Support ES6 rules, use `tui/es6` instead.
 ```javascript
 // .eslintrc.js
-module.exports =
+module.exports = {
     'extends': 'tui/es6' // default rule and ES6 rule
 };
 ```
