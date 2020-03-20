@@ -11,6 +11,7 @@ module.exports = {
         'no-compare-neg-zero': 2,
         'no-debugger': 2,
         'no-dupe-args': 2,
+        'no-dupe-else-if': 2,
         'no-dupe-keys': 2,
         'no-duplicate-case': 2,
         'no-empty-character-class': 2,
@@ -27,13 +28,15 @@ module.exports = {
         'no-obj-calls': 2,
         'no-prototype-builtins': 0,
         'no-regex-spaces': 2,
+        'no-setter-return': 2,
         'no-misleading-character-class': 2,
         'no-sparse-arrays': 2,
         'no-template-curly-in-string': 2,
         'no-unexpected-multiline': 2,
         'no-unreachable': 2,
         'no-import-assign': 2,
-        'use-isnan': 2,
+        'no-unsafe-negation': [2, {'enforceForOrderingRelations': true}],
+        'use-isnan': [2, {'enforceForIndexOf': true}],
         'valid-typeof': 2
     }
 };

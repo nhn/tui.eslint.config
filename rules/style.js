@@ -71,6 +71,7 @@ module.exports = {
             { blankLine: "always", prev: "iife", next: "*" },
             { blankLine: "always", prev: "*", next: "iife" }
         ],
+        'prefer-exponentiation-operator': 2,
         'quote-props': 0,
         'quotes': [2, 'single', {'avoidEscape': true, 'allowTemplateLiterals': true}],
         'require-unicode-regexp': 0,
