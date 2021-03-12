@@ -36,6 +36,9 @@ module.exports = {
         'no-unreachable': 2,
         'no-import-assign': 2,
         'no-unsafe-negation': [2, {'enforceForOrderingRelations': true}],
+        'no-loss-of-precision': 2,
+        'no-promise-executor-return': 2,
+        'no-unreachable-loop': 2,
         'use-isnan': [2, {'enforceForIndexOf': true}],
         'valid-typeof': 2
     }
