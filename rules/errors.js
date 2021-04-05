@@ -2,7 +2,7 @@ module.exports = {
     rules: {
         // Possible Errors
         'for-direction': 2,
-        'getter-return': [2, {'allowImplicit': false}],
+        'getter-return': [2, { 'allowImplicit': false }],
         'array-callback-return': ['error', { 'allowImplicit': false }],
         'no-cond-assign': [2, 'always'],
         'no-console': 1,
@@ -15,7 +15,7 @@ module.exports = {
         'no-dupe-keys': 2,
         'no-duplicate-case': 2,
         'no-empty-character-class': 2,
-        'no-empty': [2, {'allowEmptyCatch': false}],
+        'no-empty': [2, { 'allowEmptyCatch': false }],
         'no-ex-assign': 2,
         'no-extra-boolean-cast': 2,
         'no-extra-parens': [2, 'functions'],
@@ -23,7 +23,7 @@ module.exports = {
         'no-func-assign': 2,
         'no-inner-declarations': [2, 'both'],
         'no-invalid-regexp': 2,
-        'no-irregular-whitespace': [2, {'skipComments': true}],
+        'no-irregular-whitespace': [2, { 'skipComments': true }],
         'no-negated-in-lhs': 2,
         'no-obj-calls': 2,
         'no-prototype-builtins': 0,
@@ -35,11 +35,12 @@ module.exports = {
         'no-unexpected-multiline': 2,
         'no-unreachable': 2,
         'no-import-assign': 2,
-        'no-unsafe-negation': [2, {'enforceForOrderingRelations': true}],
+        'no-unsafe-negation': [2, { 'enforceForOrderingRelations': true }],
         'no-loss-of-precision': 2,
         'no-promise-executor-return': 2,
         'no-unreachable-loop': 2,
-        'use-isnan': [2, {'enforceForIndexOf': true}],
+        'no-unsafe-optional-chaining': [2, { 'disallowArithmeticOperators': true }],
+        'use-isnan': [2, { 'enforceForIndexOf': true }],
         'valid-typeof': 2
     }
 };
