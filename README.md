@@ -18,6 +18,9 @@ module.exports = {
     }
 };
 ```
+
+If you want to distinguish with `tui/es6`, use a version before 5.0.0
+
 ## Learn more
 [JavaScript Style Guide](https://github.com/nhn/fe.javascript/wiki)
 
