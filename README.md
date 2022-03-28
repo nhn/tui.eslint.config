@@ -27,4 +27,4 @@ If you want to distinguish with `tui/es6`, use a version before 5.0.0
 [Configuring ESLint](http://eslint.org/docs/user-guide/configuring)
 
 ## License
-This software is licensed under the [MIT License](https://github.com/nhn/tui.eslint.config/blob/master/LICENSE).
+This software is licensed under the [MIT](https://github.com/nhn/tui.eslint.config/blob/master/LICENSE) © [NHN Cloud](https://github.com/nhn).
