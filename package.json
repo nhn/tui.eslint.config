@@ -18,10 +18,11 @@
     "eslint-config",
     "eslint.config",
     "nhn",
+    "nhn cloud",
     "tui",
     "tui.eslint.config",
     "tui.eslint"
   ],
-  "author": "NHN. FE Development Lab <dl_javascript@nhn.com>",
+  "author": "NHN Cloud. FE Development Lab <dl_javascript@nhn.com>",
   "license": "MIT"
 }
