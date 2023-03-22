@@ -32,6 +32,7 @@ module.exports = {
     "no-irregular-whitespace": [2, { skipComments: true }],
     "no-loss-of-precision": 2,
     "no-misleading-character-class": 2,
+    "no-new-native-nonconstructor": 2,
     "no-new-symbol": 2,
     "no-obj-calls": 2,
     "no-promise-executor-return": 2,
