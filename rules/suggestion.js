@@ -84,7 +84,6 @@ module.exports = {
     "no-restricted-properties": 0,
     "no-restricted-syntax": [2, "WithStatement"],
     "no-return-assign": [2, "always"],
-    "no-return-await": 2,
     "no-script-url": 2,
     "no-sequences": [2, { allowInParentheses: false }],
     "no-shadow": [2, { ignoreOnInitialization: false }],
