@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    "array-callback-return": ["error", { allowImplicit: false }],
+    "array-callback-return": ["error", { allowImplicit: false, checkForEach: false, allowVoid: false }],
     "constructor-super": 2,
     "for-direction": 2,
     "getter-return": [2, { allowImplicit: false }],
