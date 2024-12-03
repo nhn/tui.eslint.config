@@ -17,7 +17,7 @@ $ npm install eslint eslint-config-tui --save-dev
 import tui from 'eslint-config-tui';
 
 export default [
-  tui,
+  ...tui,
   {
     rules: {
       // Override rules or Add more rules

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tui",
-  "version": "6.0.0",
+  "version": "6.0.1-beta",
   "description": "ESLint sharable config for TUI components",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "peerDependencies": {
     "eslint": "^9.0.0",
-    "globals":"^15.13.0"
+    "globals": "^15.13.0"
   },
   "repository": {
     "type": "git",

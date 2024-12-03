@@ -5,10 +5,12 @@ const suggestionConfig = require('./rules/suggestion');
 const layoutConfig = require('./rules/layout');
 
 module.exports = [
-  ...possibleConfig,
-  ...suggestionConfig,
-  ...layoutConfig,
   {
+    rules: {
+      ...possibleConfig.rules,
+      ...suggestionConfig.rules,
+      ...layoutConfig.rules,
+    },
     languageOptions: {
       globals: {
         ...globals.browser,
