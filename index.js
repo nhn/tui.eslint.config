@@ -1,6 +1,18 @@
-module.exports = {
-  extends: ["./rules/possible", "./rules/suggestion", "./rules/layout"].map(require.resolve),
-  env: {
-    browser: true,
+const globals = require('globals');
+
+const possibleConfig = require('./rules/possible');
+const suggestionConfig = require('./rules/suggestion');
+const layoutConfig = require('./rules/layout');
+
+module.exports = [
+  ...possibleConfig,
+  ...suggestionConfig,
+  ...layoutConfig,
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+      },
+    },
   },
-};
+];
