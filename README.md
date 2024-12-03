@@ -10,7 +10,7 @@ $ npm install eslint eslint-config-tui --save-dev
 
 ## Usage
 
-Add `eslint.config.mjs` on your project's root directory.
+> **Note:** If you have configured your project to use ESM (ECMAScript Modules) format, you can also write your ESLint configuration using the filename `eslint.config.js`.
 
 ```javascript
 // eslint.config.mjs
