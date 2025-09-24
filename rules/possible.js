@@ -1,6 +1,9 @@
 module.exports = {
   rules: {
-    "array-callback-return": ["error", { allowImplicit: false, checkForEach: false, allowVoid: false }],
+    "array-callback-return": [
+      2,
+      { allowImplicit: false, checkForEach: false, allowVoid: false },
+    ],
     "constructor-super": 2,
     "for-direction": 2,
     "getter-return": [2, { allowImplicit: false }],
@@ -24,7 +27,10 @@ module.exports = {
     "no-empty-character-class": 2,
     "no-empty-pattern": 2,
     "no-ex-assign": 2,
-    "no-fallthrough": [2, { allowEmptyCase: false, reportUnusedFallthroughComment: true }],
+    "no-fallthrough": [
+      2,
+      { allowEmptyCase: false, reportUnusedFallthroughComment: true },
+    ],
     "no-func-assign": 2,
     "no-import-assign": 2,
     "no-inner-declarations": [2, "both"],

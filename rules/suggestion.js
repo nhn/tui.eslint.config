@@ -2,9 +2,17 @@ module.exports = {
   rules: {
     "accessor-pairs": [
       2,
-      { setWithoutGet: true, getWithoutSet: false, enforceForClassMembers: false },
+      {
+        setWithoutGet: true,
+        getWithoutSet: false,
+        enforceForClassMembers: false,
+      },
     ],
-    "arrow-body-style": [2, "as-needed", { requireReturnForObjectLiteral: false }],
+    "arrow-body-style": [
+      2,
+      "as-needed",
+      { requireReturnForObjectLiteral: false },
+    ],
     "block-scoped-var": 2,
     camelcase: 2,
     "capitalized-comments": 0,
@@ -17,7 +25,11 @@ module.exports = {
     "default-param-last": 2,
     "dot-notation": [2, { allowKeywords: false }],
     eqeqeq: [2, "always"],
-    "func-name-matching": [2, "always", { includeCommonJSModuleExports: false }],
+    "func-name-matching": [
+      2,
+      "always",
+      { includeCommonJSModuleExports: false },
+    ],
     "func-names": 0,
     "func-style": 0,
     "grouped-accessor-pairs": [2, "getBeforeSet"],
@@ -55,7 +67,10 @@ module.exports = {
     "no-extra-boolean-cast": [2, { enforceForInnerExpressions: true }],
     "no-extra-semi": 2,
     "no-floating-decimal": 2,
-    "no-implicit-coercion": [2, { boolean: false, disallowTemplateShorthand: false }],
+    "no-implicit-coercion": [
+      2,
+      { boolean: false, disallowTemplateShorthand: false },
+    ],
     "no-implicit-globals": [2, { lexicalBindings: true }],
     "no-implied-eval": 2,
     "no-inline-comments": 0,
@@ -120,7 +135,10 @@ module.exports = {
     "object-shorthand": [2, "always", { avoidQuotes: true }],
     "one-var": 0,
     "operator-assignment": 0,
-    "prefer-arrow-callback": [2, { allowUnboundThis: false, allowNamedFunctions: true }],
+    "prefer-arrow-callback": [
+      2,
+      { allowUnboundThis: false, allowNamedFunctions: true },
+    ],
     "prefer-const": [2, { destructuring: "any", ignoreReadBeforeAssign: true }],
     "prefer-destructuring": [
       2,
