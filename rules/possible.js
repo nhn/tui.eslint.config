@@ -1,6 +1,9 @@
 module.exports = {
   rules: {
-    "array-callback-return": ["error", { allowImplicit: false, checkForEach: false, allowVoid: false }],
+    "array-callback-return": [
+      2,
+      { allowImplicit: false, checkForEach: false, allowVoid: false },
+    ],
     "constructor-super": 2,
     "for-direction": 2,
     "getter-return": [2, { allowImplicit: false }],
@@ -20,11 +23,14 @@ module.exports = {
     "no-dupe-else-if": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
-    "no-duplicate-imports": 2,
+    "no-duplicate-imports": [2, { allowSeparateTypeImports: true }],
     "no-empty-character-class": 2,
     "no-empty-pattern": 2,
     "no-ex-assign": 2,
-    "no-fallthrough": [2, { allowEmptyCase: false, reportUnusedFallthroughComment: true }],
+    "no-fallthrough": [
+      2,
+      { allowEmptyCase: false, reportUnusedFallthroughComment: true },
+    ],
     "no-func-assign": 2,
     "no-import-assign": 2,
     "no-inner-declarations": [2, "both"],
@@ -44,6 +50,7 @@ module.exports = {
     "no-template-curly-in-string": 2,
     "no-this-before-super": 2,
     "no-undef": 2,
+    "no-unassigned-vars": 2,
     "no-unexpected-multiline": 2,
     "no-unreachable": 2,
     "no-unreachable-loop": 2,
@@ -54,7 +61,15 @@ module.exports = {
     "no-unused-vars": [2, { ignoreClassWithStaticInitBlock: false }],
     "no-use-before-define": [
       2,
-      { functions: false, classes: true, variables: true, allowNamedExports: false },
+      {
+        functions: false,
+        classes: true,
+        variables: true,
+        allowNamedExports: false,
+        enums: true,
+        typedefs: true,
+        ignoreTypeReferences: false,
+      },
     ],
     "no-useless-assignment": 2,
     "require-atomic-updates": 2,
