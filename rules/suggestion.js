@@ -6,6 +6,7 @@ module.exports = {
         setWithoutGet: true,
         getWithoutSet: false,
         enforceForClassMembers: false,
+        enforceForTSTypes: true,
       },
     ],
     "arrow-body-style": [
@@ -32,7 +33,7 @@ module.exports = {
     ],
     "func-names": 0,
     "func-style": 0,
-    "grouped-accessor-pairs": [2, "getBeforeSet"],
+    "grouped-accessor-pairs": [2, "getBeforeSet", { enforceForTSTypes: true }],
     "guard-for-in": 2,
     "id-length": 0,
     "id-match": 0,
@@ -97,7 +98,10 @@ module.exports = {
     "no-proto": 2,
     "no-redeclare": 2,
     "no-regex-spaces": 2,
-    "no-restricted-globals": [1, "event", "fdescribe", "fit"],
+    "no-restricted-globals": [
+      1,
+      { globals: ["event"], checkGlobalObject: true },
+    ],
     "no-restricted-properties": 0,
     "no-restricted-syntax": [2, "WithStatement"],
     "no-return-assign": [2, "always"],
