@@ -24,7 +24,7 @@ module.exports = {
     curly: 2,
     "default-case": 2,
     "default-param-last": 2,
-    "dot-notation": [2, { allowKeywords: false }],
+    "dot-notation": 2,
     eqeqeq: [2, "always"],
     "func-name-matching": [
       2,
